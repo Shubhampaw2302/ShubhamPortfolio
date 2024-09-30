@@ -7,6 +7,7 @@ const navItems = document.querySelectorAll('.menu-nav__item');
 let showMenu = false;
 
 menuBtn.addEventListener('click', toggleMenu);
+document.getElementById("year").textContent = new Date().getFullYear();
 
 function toggleMenu() {
   if(!showMenu) {
